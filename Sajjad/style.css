@@ -1,0 +1,213 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+}
+h1{
+     
+     text-decoration: gray;
+}
+.navbar{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          background-color: navy;
+          padding: 10px;
+          margin-bottom: 20px;
+}
+.logo{
+        width: 40%;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
+        
+}
+.links{
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.links a{
+          color: white;
+          text-decoration: none;
+          padding: 12px;
+          text-transform: uppercase;
+          position: relative;
+
+}
+.links a::before{
+    content: " ";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+
+}
+.links a:hover:before{
+     width: 100%;
+     transition: 0.5s linear;
+}
+.team{
+         background-color: seashell;
+}
+.main{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin:auto;
+        width: 70%;
+        margin-bottom: 10%;
+        
+
+}
+.sub{
+       background-color: silver;
+       width: 300px;
+       height: auto;
+       border: 2px solid green;
+       padding: 30px;
+       border-radius: 18px;
+       margin-bottom: 4%;
+       position: relative;
+       box-shadow: 0 0 2px 2px rgb(28, 71, 3);
+}
+.sub::before{
+         content: "Lorem Ipsum";
+          position: absolute;
+          top: 93%;
+          left: 20%;
+          color: white;
+          padding: 10px;
+          width: 150px;
+          background-color: darkgreen;
+          text-align: center;
+          
+}
+.head{
+       color: red;
+       margin-bottom: 20px;
+       position: relative;
+       text-align: center;
+       margin-top: 5%;
+}
+.head::before{
+    content: " ";
+    position: absolute;
+    left: 40%;
+    top: 120%;
+    width: 20%;
+    height: 3px;
+    background-color: brown;
+}
+.head::after{
+     content: " ";
+     position: absolute;
+     top: 110%;
+     left: 49%;
+     width: 40px;
+     background-color: black;
+     height: 20px;
+}
+
+.ser1{
+        text-align: center;
+        padding: 30px;
+        width: 25%;
+        border: 2px solid gray;
+        border-radius: 18px;
+        margin-left: 80px;
+}
+.ser1:hover{
+      background-color: rgb(66, 64, 64);
+}
+
+.sec_sub{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 8%;
+            width: 70%;
+            margin-left: 15%;
+            margin-bottom: 10%;
+
+}
+.ser_sub{
+           width: 40%;
+           text-align: center;
+           padding: 30px;
+           margin-left: 30px;
+           border: 2px solid black;
+           border-radius: 20px;
+           box-shadow: 2px 2px 4px 2px gray;
+           transition: .5s ease-in ;
+           margin-bottom: 4%;
+}
+.ser_sub:hover{
+                 width: 45%;
+                 padding: 35px; 
+}
+.container{
+             
+             height: auto;
+             margin-top: 5%;
+             display: flex;
+             justify-content: space-evenly;
+             flex-wrap: wrap;
+}
+.sub-cont{
+            width: 30%;
+            border: 2px solid black;
+            padding: 30px;
+            border-radius: 18px;
+            margin-bottom: 5%;
+}
+.s1{
+         text-align: center;
+         width: 30%;
+         border: 2px solid black;
+         padding: 35px;
+         border-radius: 24px;
+         margin-bottom: 5%;
+         transition: .6s ease-in;
+         box-shadow: 2px 2px 2px 3px rgb(175, 170, 170);
+}
+.s1:hover{
+         padding: 45px;
+}
+.mt{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-wrap: wrap;
+
+}
+.st{
+          width: 25%;
+          border: 2px solid darkgreen;
+          
+}
+.st img{
+          width: 100%;
+}
+
+.card {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+.sub-card {
+        width: 200px;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }

@@ -1,0 +1,54 @@
+
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: auto;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 16px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      .swiper-slide h5{
+          padding-left: 10px;
+      }
+      .head{
+          text-align: center;
+          position: relative;
+          letter-spacing: 2px;
+
+      }
+      .head::before{
+          content: " ";
+          position: absolute;
+          top: 100%;
+          left: 25%;
+          width: 50%;
+          height: 3px;
+          background-color: darkgreen;
+      }

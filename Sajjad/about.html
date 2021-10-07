@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="fi.png" type="image/png">
+    <title>ABOUT SHN TOURS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 70vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(ap3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .nav {
+            width: 100%;
+            height: 15vh;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 25%;
+            text-align: center;
+        }
+
+        .links {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .links a:hover {
+            color: white;
+        }
+
+        .links a::before {
+            content: " ";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: darkturquoise;
+            transition: 0.6s ease-in;
+        }
+
+        .links a:hover:before {
+            width: 100%;
+            color: white;
+        }
+
+
+        .main {
+            width: 100%;
+            height: 55vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            margin-top: 30px;
+            padding-bottom: 10px;
+            box-shadow: 0, 0, 25px rgba(0, 0, 0, 0.07);
+            border: 5px solid rgba(0, 0, 0, 0.07);
+        }
+
+        .hpart {
+            position: relative;
+            margin-bottom: 20px;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .hpart::before {
+            content: " ";
+            position: absolute;
+            top: 100%;
+            left: 25%;
+            width: 50%;
+            height: 4px;
+            background-color: darkturquoise;
+        }
+
+        body {
+            font-family: 'Yaldevi', sans-serif;
+            background-color: rgb(211, 203, 203);
+        }
+
+        .section {
+            color: whitesmoke;
+            letter-spacing: 3px;
+        }
+
+        .section h1 {
+            text-shadow: 3px 3px 8px grey;
+        }
+
+        #active2 {
+            color: white;
+            position: relative;
+        }
+
+        #active2::before {
+            content: " ";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: darkturquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <h1 class="animate__animated animate__rubberBand animate__infinite	infinite "
+                    style="text-shadow: 2px 2px 3px gray; color: darkturquoise;">SHU TOURS
+                </h1>
+            </div>
+            <div class="links">
+                <a href="tour.html" target="_blank">HOME</a>
+                <a href="#pack">Packages</a>
+                <a href="#serv">Services</a>
+                <a href="contact.html" target="_blank">Contact</a>
+                <a href="about.html" target="_blank" id="active2">About Us</a>
+                <a href="gallery.html" target="_blank">Gallery</a>
+            </div>
+        </div>
+        <div class="main">
+
+            <div class="section">
+                <h1>ABOUT SHN TOURS</h1>
+                <h4>HOME / ABOUT</h4>
+            </div>
+        </div>
+    </header>
+
+    <!-------------------- CONTENT SECTIONS ---------------------------->
+
+    <div class="container bg-light content">
+        <h1 style="padding-top: 20px; margin-top: 0;" class="hpart">ABOUT SHN TOURS</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus minima animi cum, rerum deserunt
+            alias minus cupiditate deleniti, unde ducimus obcaecati laboriosam. Ad quaerat, blanditiis labore rerum
+            iusto temporibus dolorum! Similique laborum quidem dolor. Distinctio, earum necessitatibus, facere voluptate
+            ex doloribus fuga iste corrupti omnis velit magni dignissimos. Maxime sunt quas mollitia molestias quis
+            quidem nisi asperiores, ullam voluptate omnis animi fugiat, suscipit perspiciatis in repudiandae illo alias.
+            Porro, eum dignissimos, facilis adipisci dicta quisquam officiis accusantium quasi culpa odit mollitia
+            tempore dolor at nostrum, accusamus unde nihil vero nesciunt iure laudantium illum! Dolores beatae expedita
+            velit aperiam debitis unde est, amet tempora, officia illum repellat. Assumenda facilis rerum illum. Ea
+            temporibus dicta, pariatur nostrum nam minima explicabo quas vitae in ex distinctio adipisci itaque vel
+            reiciendis nesciunt quidem excepturi numquam optio similique laborum officia odio. Quidem facilis magni
+            totam quis quas ipsam enim dolor omnis sit impedit, quod eos pariatur, at dolorem? Repellendus molestiae
+            necessitatibus ducimus, facilis reiciendis saepe vero quasi eos nisi sed nostrum alias architecto delectus
+            dolorem eius amet aliquid cumque quo iste! Aliquam amet libero dolore. Fuga libero quibusdam nihil qui
+            quisquam placeat suscipit ratione labore eum est? Voluptates nemo incidunt repellendus, aliquid enim
+            sapiente.
+        </p>
+        <h1 class="hpart">WHY I CHOOSE SHN TOURS FOR MY TRIP ?</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, unde! Dolorem officiis corrupti illum eveniet
+            aut beatae qui adipisci labore esse repudiandae a deleniti expedita pariatur porro nemo error sed, incidunt
+            similique. Laboriosam aliquid eius velit ut vel laudantium, quibusdam minus doloremque rerum maiores magnam
+            aperiam? Laboriosam, quo odio optio mollitia ipsum enim voluptatum nulla dignissimos labore alias corporis
+            dolores ipsa qui ad veniam asperiores vel accusantium excepturi quos delectus inventore quisquam. Maiores
+            sed repellat aliquid impedit corrupti nemo sapiente aliquam ratione cumque, quibusdam beatae? Sint sapiente
+            dolorem cupiditate! Sapiente amet sequi libero dignissimos corrupti. Neque odio error aliquid ducimus quis
+            totam voluptatem molestias officiis alias esse quae dolores voluptatum eius vel ea vero, adipisci placeat
+            dignissimos. Facilis, nostrum assumenda totam quisquam ea, veritatis odio magni perspiciatis, doloribus enim
+            eaque dignissimos laboriosam deserunt? Asperiores praesentium ipsam doloribus sequi. Adipisci, officia
+            voluptatibus eveniet eaque odio iure aspernatur sit omnis, optio nesciunt autem quaerat nemo sequi ducimus
+            eligendi quam cum? Ipsam eveniet sapiente amet, illum odio repudiandae. Hic voluptates natus provident
+            quidem ipsum corrupti vitae dolores nesciunt ea repellendus perferendis at labore obcaecati, quisquam
+            incidunt qui, laboriosam ipsam exercitationem quia nihil ratione ducimus sapiente? Enim impedit, aliquam
+            odio eaque aliquid quisquam iste, beatae repudiandae alias sapiente aut veritatis ab perferendis dignissimos
+            nostrum facilis maxime esse? Nostrum debitis maiores minima quidem ducimus quibusdam beatae odit quasi,
+            doloribus dignissimos dolores voluptatibus assumenda a non in soluta repudiandae vel cum ea accusantium,
+            reiciendis animi quo! Laboriosam quibusdam libero excepturi natus obcaecati, ut explicabo deleniti possimus
+            provident, sit a! Corrupti vero explicabo quis exercitationem praesentium minima ut! Blanditiis, quibusdam
+            quos. Corrupti voluptatibus maiores dolorem atque? Facilis nesciunt mollitia veniam cumque quasi. Culpa
+            fugiat nostrum ea quia sint est illum aliquam voluptatum vitae, cumque ipsa harum molestias blanditiis
+            voluptatibus libero facilis praesentium! Laboriosam dolorem porro cumque pariatur dignissimos molestiae
+            molestias facilis, unde ipsam distinctio at veritatis accusamus.
+        </p>
+        <h1 class="hpart">OUR FEATURES</h1>
+        <ul>
+            <li>Best facilities</li>
+            <li>Comfortable Transport</li>
+            <li>Our Supportive Guider</li>
+            <li>Our Photographers</li>
+            <li>Standard Meals</li>
+            <li>24 hours Wifi Facility</li>
+            <li>Accomodations</li>
+            <li>Basic First Aid Kits</li>
+        </ul>
+        <h1 class="hpart">TERMS AND CONDITIONS</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt dolorem vel quas harum tempore, labore,
+            dolor nesciunt rerum reprehenderit corrupti reiciendis iusto nobis dolore, expedita placeat numquam adipisci
+            magni ex architecto velit. Temporibus, dolores? Illum iste exercitationem dolorum maxime qui cum molestiae
+            nisi quasi, debitis aut natus laboriosam officiis sit! Incidunt nulla necessitatibus, id dignissimos
+            distinctio cumque perferendis explicabo asperiores eos esse veniam, natus, culpa consectetur labore odit.
+            Sapiente fugiat doloremque temporibus eos deleniti praesentium fugit maiores tempora ullam, error odit!
+            Laudantium, labore? Voluptate fugiat itaque cumque dolor quos totam iusto. Nam reprehenderit beatae, alias
+            tempore inventore doloremque fugit id voluptatum quos? Possimus voluptatem sit dolor ex repellat, voluptate
+            perferendis in mollitia totam, nam at id iusto facere nostrum molestiae placeat ad optio obcaecati a quidem
+            quaerat quisquam. Nesciunt itaque fugit maxime tenetur architecto dolore laudantium ipsum sequi explicabo
+            aut soluta, recusandae, nam laboriosam hic ex facere nostrum sed adipisci?
+        </p>
+    </div>
+    <div class="container-fluid text-center">
+        <h4>&#169 Copywrites by SHN TOURS</h4>
+    </div>
+
+</body>
+
+</html>
